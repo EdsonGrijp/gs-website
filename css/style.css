@@ -20,7 +20,8 @@ body {
 
 header {
     padding: 20px 0;
-    border-bottom: 1px solid rgba(255,255,255,.10);
+    border-bottom: 1px solid rgba(255,255,255,.08);
+    background-color: rgba(6, 20, 38, 0.95);
 }
 
 header .container {
@@ -32,22 +33,28 @@ header .container {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 30px;
+    gap: 50px;
 }
 
 nav a {
     text-decoration: none;
     color: white;
     font-weight: 500;
+    transition: color .3s ease;
+}
+
+nav a:hover {
+    color: #1EA7FF;
 }
 
 .btn-contato {
     background: #00AEEF;
     color: white;
     text-decoration: none;
-    padding: 12px 22px;
-    border-radius: 8px;
+    padding: 14x 28px;
+    border-radius: 10px;
     font-weight: bold;
+    font-size: 15px;
 }
 
 .logo a {
@@ -55,4 +62,25 @@ nav a {
     text-decoration: none;
     font-size: 1.8rem;
     font-weight: bold;
+}
+
+.logo img {
+    height: 90px;
+    width: auto;
+    display: block;
+}
+
+.btn-contato {
+    background: #1EA7FF;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.btn-contato:hover {
+    transform:translateY(-2px);
+    box-shadow:0 8px 20px rgba(30,167,255,.35);
 }
