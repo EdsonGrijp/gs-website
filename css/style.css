@@ -135,6 +135,44 @@ nav a:hover {
     background-size: cover;
 }
 
+.hero{
+    position: relative;
+    min-height: 950px;
+
+    background:
+        linear-gradient(
+            rgba(1,15,39,.25),
+            rgba(1,15,39,.25)
+        ),
+        url("../assets/imagem/imagemhero3.png");
+
+    background-repeat: no-repeat;
+    background-position: 80% center;
+    background-size: cover;
+}
+
+.hero::after{
+    content: "";
+    position: absolute;
+    inset: auto 0 0 0;
+
+    height: 500px;
+
+    background: linear-gradient(
+        to bottom,
+        rgba(1,15,39,0) 0%,
+        rgba(1,15,39,0) 25px,
+        rgba(1,15,39,.02) 45%,
+        rgba(1,15,39,.06) 60%,
+        rgba(1,15,39,.12) 72%,
+        rgba(1,15,39,.22) 84%,
+        rgba(1,15,39,.45) 94%,
+        #010F27 100%
+    );
+
+    pointer-events: none;
+}
+
 .hero .container {
     width: 100%;
 }
@@ -192,4 +230,87 @@ nav a:hover {
 
 .hero-content span{
     color:#1EA7FF;
+}
+
+.servicos{
+    padding: 180px 0 120px;
+
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(1,15,39,0) 0%,
+            rgba(1,15,39,.08) 18%,
+            rgba(1,15,39,.18) 35%,
+            rgba(1,15,39,.35) 55%,
+            rgba(1,15,39,.60) 75%,
+            #010F27 100%
+        );
+
+    margin-top: -80px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.servicos h2{
+    font-size: 42px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.servicos p{
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    color: #b9c5d8;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.servicos-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 60px;
+    padding: 0 20px;
+}
+
+.card-servico{
+    background-color: #071A3A;
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 12px;
+    padding: 29px;
+    text-align: left;
+
+    transition: transform .3s ease,
+        box-shadow .3s ease,
+        border-color .3s ease,
+        background-color .3s ease;
+    cursor: pointer;
+}
+
+.card-servico:hover{
+    transform: translateY(-8px);
+    background-color: #0B234A;
+    border-color: #00AEEF;
+    box-shadow: 0 12px 30px rgba(0, 174, 239, .25);
+    color: #00AEEF;
+}
+
+.card-servico h3{
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 15px;
+    text-align: center;
+    transition: color .3s ease;
+}
+
+.card-servico p{
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #C8D4E8;
+    margin: 0;
 }
