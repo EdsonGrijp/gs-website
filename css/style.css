@@ -374,3 +374,62 @@ nav a:hover {
     box-shadow: 0 20px 50px rgba(0,174,239,.15);
     border-radius: 20px;
 }
+
+.tecnologias{
+    padding: 100px 0;
+    background-color: #010F27;
+}
+
+.tecnologias h2{
+    font-size: 2.8rem;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.tecnologias-descricao{
+    max-width: 700px;
+    color: #c7d4e8;
+    line-height: 1.8;
+    margin-bottom: 60px;
+}
+
+.tecnologias-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.tech-card{
+    background: #071A3A;
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 35px 20px;
+
+    transition: .35s;
+    cursor: pointer;
+}
+
+.tech-card i{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.tech-card span{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.tech-card:hover{
+    transform: translateY(-8px);
+
+    border-color: #1EA7FF;
+
+    box-shadow: 0 15px 40px rgba(30,167,255,.20);
+}
