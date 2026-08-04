@@ -314,3 +314,63 @@ nav a:hover {
     color: #C8D4E8;
     margin: 0;
 }
+
+.quem-somos{
+    padding: 120px 0;
+    background-color: #010F27;
+    
+}
+
+.quem-somos-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    align-items: center;
+}
+
+.titulo-secao{
+    display: inline-block;
+    color: #00AEEF;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.quem-somos-texto h2{
+   font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.quem-somos-texto p{
+    font-size: 1.1rem;
+    line-height: 1.9;
+    color: #C8D4E8;
+    margin-bottom: 20px;
+}
+
+.quem-somos-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quem-somos-imagem img{
+    width: 100%;
+    max-width: 550px;
+    border-radius: 16px;
+}
+
+.quem-somos-texto{
+    max-width: 600px;
+}
+
+.quem-somos-imagem{
+    align-self: center;
+    margin-top: -20px;
+    box-shadow: 0 20px 50px rgba(0,174,239,.15);
+    border-radius: 20px;
+}
