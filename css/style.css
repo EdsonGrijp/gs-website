@@ -521,3 +521,99 @@ nav a:hover {
     font-size: 1rem;
 
 }
+
+.contato{
+
+    padding: 120px 0;
+
+    background: linear-gradient(
+        to bottom,
+        #04152F,
+        #010F27
+    );
+
+}
+
+.contato-box{
+
+    max-width: 850px;
+
+    margin: auto;
+
+    text-align: center;
+
+}
+
+.contato h2{
+
+    font-size: 2.8rem;
+
+    color: #fff;
+
+    margin: 20px 0;
+
+}
+
+.contato p{
+
+    color: #C8D4E8;
+
+    font-size: 1.1rem;
+
+    line-height: 1.8;
+
+    margin-bottom: 50px;
+
+}
+
+.contato-botoes{
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+
+}
+
+.btn-whatsapp,
+.btn-email{
+
+    padding: 16px 34px;
+
+    border-radius: 10px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    transition: .3s;
+
+}
+
+.btn-whatsapp{
+
+    background: #00AEEF;
+
+    color: #fff;
+
+}
+
+.btn-email{
+
+    border: 2px solid #00AEEF;
+
+    color: #fff;
+
+}
+
+.btn-whatsapp:hover,
+.btn-email:hover{
+
+    transform: translateY(-5px);
+
+    box-shadow: 0 15px 35px rgba(0,174,239,.25);
+
+}
