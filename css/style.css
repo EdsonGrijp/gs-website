@@ -433,3 +433,91 @@ nav a:hover {
 
     box-shadow: 0 15px 40px rgba(30,167,255,.20);
 }
+
+.diferenciais{
+    padding: 110px 0;
+    background: linear-gradient(
+        to bottom,
+        #010F27 0%,
+        #04152F 100%
+    );
+}
+
+.diferenciais h2{
+    font-size: 2.8rem;
+    color: #fff;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.diferenciais-descricao{
+    max-width: 700px;
+    margin: 0 auto 70px;
+    text-align: center;
+    color: #C8D4E8;
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+.diferenciais .titulo-secao{
+    display: block;
+    text-align: center;
+}
+
+.diferenciais-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+.diferencial-card{
+
+    background: rgba(255,255,255,.03);
+
+    border: 1px solid rgba(255,255,255,.08);
+
+    border-radius: 18px;
+
+    padding: 40px 30px;
+
+    transition: .35s ease;
+
+}
+
+.diferencial-card:hover{
+
+    transform: translateY(-8px);
+
+    border-color: #00AEEF;
+
+    box-shadow: 0 20px 45px rgba(0,174,239,.18);
+
+}
+
+.icone{
+
+    font-size: 48px;
+
+    margin-bottom: 25px;
+
+}
+
+.diferencial-card h3{
+
+    color: #fff;
+
+    font-size: 1.4rem;
+
+    margin-bottom: 18px;
+
+}
+
+.diferencial-card p{
+
+    color: #C8D4E8;
+
+    line-height: 1.8;
+
+    font-size: 1rem;
+
+}
